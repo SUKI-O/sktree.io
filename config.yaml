@@ -1,0 +1,76 @@
+baseURL: "https://theme.scientific-python.org/"
+languageCode: "en-us"
+title: "Sktree"
+theme: scientific-python-hugo-theme
+relativeURLs: true
+disableKinds: ["taxonomy"]
+
+markup:
+  highlight:
+    noClasses: false
+
+params:
+  author:
+    name: "Neurodata"
+  description: "Documentation for sktree package."
+  images:
+    - /images/tree.svg
+  navbarlogo:
+    image: tree.svg
+    text: Sktree
+    link: /
+  hero:
+    title: SkTree
+    image: tree.svg
+    buttontext: Get Started
+    buttonlink: https://docs.neurodata.io/scikit-tree/dev/install.html
+  navbar:
+    - title: Get Started
+      url: /getstarted/
+    - title: Features
+      url: /features/
+    - title: Shortcodes
+      url: /shortcodes/
+    - title: Examples
+      url: /examples/
+  keyfeatures:
+    features:
+      - title: Installation
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        link: https://docs.neurodata.io/scikit-tree/dev/install.html
+        button : "Install"
+      - title: Documentation
+        text: The package documentation and API usage guide.
+        link: https://docs.neurodata.io/scikit-tree/dev/index.html#
+        button : "Documentation"
+      - title: Examples
+        text: "Learn how to use the package with examples"
+          # [Examples](https://docs.neurodata.io/scikit-tree/dev/use.html)"
+        link: https://docs.neurodata.io/scikit-tree/dev/use.html
+        button : "Examples"
+      # - title: Papers
+      #   text: The published papers [Papers](https://neurodata.io/research).
+  footer:
+    logo: tree.svg
+    socialmediatitle: ""
+    socialmedia:
+      - link: https://neurodata.io/
+        icon: scientific-python
+      - link: https://neurodata.io/
+        icon: discourse
+      - link: https://neurodata.io/
+        icon: github
+    quicklinks:
+      column1:
+        title: ""
+        links:
+          - text: About
+            link: /about/
+          - text: Theme GitHub
+            link: https://github.com/neurodata
+      column2:
+        links:
+          - text: Neurodata
+            link: https://neurodata.io/
+      column3:
+        links:
