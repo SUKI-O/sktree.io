@@ -30,6 +30,22 @@
       <description>This is some example markdown with bold!</description>
     </item>
     <item>
+      <title>About</title>
+      <link>https://theme.scientific-python.org/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://theme.scientific-python.org/about/</guid>
+      <description>scikit-tree# Scikit-tree is a package for modern tree-based algorithms for supervised and unsupervised learning problems. It extends the robust API of scikit-learn &amp;lt;https://github.com/scikit-learn/scikit-learn&amp;gt;_ for tree algorithms that achieve strong performance in benchmark tasks.
+Our package has implemented unsupervised forests (Geodesic Forests [Madhyastha2020]), oblique random forests (SPORF [Tomita2020] and MORF [Li2023]), and honest forests [Perry2021]. In the near future, we also plan to include extended isolation forests and stream decision forests [Xu2022]_.</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://theme.scientific-python.org/shortcodes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://theme.scientific-python.org/shortcodes/</guid>
+      <description>scikit-tree# Scikit-tree is a package for modern tree-based algorithms for supervised and unsupervised learning problems. It extends the robust API of scikit-learn &amp;lt;https://github.com/scikit-learn/scikit-learn&amp;gt;_ for tree algorithms that achieve strong performance in benchmark tasks.
+Our package has implemented unsupervised forests (Geodesic Forests [Madhyastha2020]), oblique random forests (SPORF [Tomita2020] and MORF [Li2023]), and honest forests [Perry2021]. In the near future, we also plan to include extended isolation forests and stream decision forests [Xu2022]_.</description>
+    </item>
+    <item>
       <title>Admonitions</title>
       <link>https://theme.scientific-python.org/examples/kitchen-sink/admonitions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -73,13 +89,6 @@ Dependencies# Install Hugo. Either the standard or extended editions of Hugo wil
 Verify that hugo is on your PATH:
 $ hugo version hugo v0.120.3-a4892a07b41b7b3f1f143140ee4ec0a9a5cf3970 linux/amd64 BuildDate=2023-11-01T17:57:00Z VendorInfo=gohugoio Install Dart Sass.
 You can also install Hugo as a snap, which includes Dart Sass.</description>
-    </item>
-    <item>
-      <title>Shortcodes summary placeholder</title>
-      <link>https://theme.scientific-python.org/shortcodes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://theme.scientific-python.org/shortcodes/</guid>
-      <description>Please refer to the theme shortcode description list.</description>
     </item>
     <item>
       <title>Typography</title>
